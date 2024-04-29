@@ -1,0 +1,355 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <!-- font kit -->
+  <script src="https://kit.fontawesome.com/305c63aee9.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+<!--------Header and General Layout------->
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="Logo.png" class="logo">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Student at Florida State University</p>
+      <h1>Hello, I'm <span>Snailey Dol</span>,<br>
+        B.S Information Technology</h1>
+    </div>
+  </div>
+</div>
+
+<!-----------------About Me--------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="About.jpg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I'm a driven student at Florida State University pursuing a Bachelor of Science in Information Technology
+          with minors in Computer Science, Data Analytics, and Business Analytics graduating May 2026. I've consistently achieved
+          academic excellence, earning recognition on the Dean’s List and receiving awards such as the CARE
+          Student of Excellence Award. As a first-generation student, I heavily understand the importance of hard
+          work and persistence. I try to be a leader no matter where I am no matter whether it is on campus, off
+          campus, or in the workplace. Looking ahead, I'm eager to contribute my expertise to address real-world
+          challenges and drive innovation in the technology sector.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills and Certifications</p>
+          <p class="tab-links" onclick="opentab('work')">Work Experience</p>
+          <p class="tab-links" onclick="opentab('leadership')">Leadership Experience</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Programming Languages</span><br>
+                Java, Python, C++, Javascript
+            </li>
+            <li><span>Web Development Technologies</span><br>
+              HTML,CSS
+            </li>
+            <li><span>Database and Data Analysis</span><br>
+              SQL, Tableau
+            </li>
+            <li><span>Operating Systems and Tools</span><br>
+              Terminal, Unix, Git, Microsoft Office<br>
+            </li>
+            <li><span>Certifications</span><br>
+              AutoCAD, SolidWorks
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="work">
+          <ul>
+            <li><span>Papayago Rescue House</span><br>
+              Technical Project Manager (April 2024 - Current)
+            </li>
+            <li><span>Energy Innovation Capital</span><br>
+              VC Industry Research & Data Analytics Extern (February 2024 - March 2024)
+            </li>
+            <li><span>The Home Depot</span><br>
+              Technology Innovation & App Strategy Extern (September 2023 - November 2023)
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="leadership">
+          <ul>
+            <li><span>Black Student Union</span><br>
+              Master Coordinator (May 2023 - Current)
+            </li>
+            <li><span>Student Government Association: Student Foundation</span><br>
+              Fundraising (January 2023 - December 2023)
+            </li>
+            <li><span>Big Brother Little Brother Mentoring Program</span><br>
+              Special Events & Community Service Chair (January 2023 - December 2023)
+            </li>
+            <li><span>Student Government Association: Freshman Leadership Institute</span><br>
+              Facilitator of Administration (May 2023 - November 2023)
+            </li>
+            <li><span>District One Student Advisory Council</span><br>
+              Council Member (September 2021 - May 2022)
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----------------Experience ------------>
+<div id="experience">
+  <div class="container">
+    <h1 class="sub-title">Experience</h1>
+    <div class="experience-list">
+        <div>
+          <i class="fa-solid fa-people-roof"></i>
+          <h2>Technical Project Manager</h2>
+          <p>Effectively managed website redesign project, ensuring alignment with goals, budget, and timeline,
+            while leading end-to-end Papayago Rescue House website redesign.</p>
+          <a href="https://www.linkedin.com/in/snailey" target="_blank">Learn More</a>
+          <h3>Papayago Rescue House (April 2024 - Current)</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-chart-simple"></i>
+          <h2>VC Industry Research & Data Analytics Extern</h2>
+          <p>Proficiently utilized Excel, Tableau, and SQL for data analysis, uncovering insights on energy
+            markets and emerging segments, identifying key players.</p>
+          <a href="https://www.linkedin.com/in/snailey" target="_blank">Learn More</a>
+          <h3>Energy Innovation Capital (February 2024 - March 2024)</h3>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Technology Innovation & App Strategy Extern</h2>
+          <p>Proposed AI and augmented reality for customer security and shopping; conducted research to inform
+            targeted in-app features for younger demographics.</p>
+          <a href="https://www.linkedin.com/in/snailey" target="_blank">Learn More</a>
+          <h3>The Home Depot (September 2023 - November 2023)</h3>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-----------------Portfolio-------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="project-list">
+      <div class="project">
+        <img src="Project-img1.jpg">
+        <div class="layer">
+          <h3>BMI Calculator</h3>
+          <p>Developed a BMI calculator program using arrays, functions, and loops to prompt user input,
+            categorize BMI ranges, and offer personalized recommendations interactively.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img2.png">
+        <div class="layer">
+          <h3>QR Code Generator</h3>
+          <p>Developed a code that will allow you to input a link or a picture and create a QR code for it</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img3.webp">
+        <div class="layer">
+          <h3>Chess Program</h3>
+          <p>Developed a chess game that allows you to play alongside your friends.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img3.webp">
+        <div class="layer">
+          <h3>Chess Program</h3>
+          <p>Developed a chess game that allows you to play alongside your friends.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img3.webp">
+        <div class="layer">
+          <h3>Chess Program</h3>
+          <p>Developed a chess game that allows you to play alongside your friends.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img2.png">
+        <div class="layer">
+          <h3>Chess Program</h3>
+          <p>Developed a chess game that allows you to play alongside your friends.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img3.webp">
+        <div class="layer">
+          <h3>Chess Program</h3>
+          <p>Developed a chess game that allows you to play alongside your friends.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img3.webp">
+        <div class="layer">
+          <h3>Chess Program</h3>
+          <p>Developed a chess game that allows you to play alongside your friends.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="Project-img2.png">
+        <div class="layer">
+          <h3>Chess Program</h3>
+          <p>Developed a chess game that allows you to play alongside your friends.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="btn-container">
+      <a id="see-more" class="btn">See More</a>
+      <a id="see-less" style="display:none;" class="btn">See Less</a>
+    </div>
+  </div>
+</div>
+<!-----------------Contact---------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i>snailey.dol100@gmail.com</p>
+        <p> <i class="fa-solid fa-phone-volume"></i>(448) 206-4824</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/snailey" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Snailey100" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="Snailey.Dol.Resume.pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Snailey Dol</p>
+  </div>
+</div>
+
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+
+<script>
+  let seeMoreBtn = document.querySelector('#see-more');
+  let seeLessBtn = document.querySelector('#see-less');
+  let currentItem = 3;
+
+  seeMoreBtn.onclick = () =>{
+    let boxes = [...document.querySelectorAll('.project')];
+    for (var i = currentItem; i < currentItem + 3; i++){
+      if (boxes[i]) {
+        boxes[i].style.display = 'inline-block';
+      }
+    }
+    currentItem += 3;
+
+    if (currentItem >= boxes.length){
+      seeMoreBtn.style.display = 'none';
+      seeLessBtn.style.display = 'inline-block';
+    }
+  }
+  seeLessBtn.onclick = () =>{
+    let boxes = [...document.querySelectorAll('.project')];
+    currentItem -= 3;
+    for (var i = currentItem; i < currentItem + 3; i++){
+      if (boxes[i]) {
+        boxes[i].style.display = 'none';
+      }
+    }
+    if (currentItem <= 3){
+      seeMoreBtn.style.display = 'inline-block';
+      seeLessBtn.style.display = 'none';
+    }
+  }
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw2vkfLC9oamSFqZFeQGH95mUWLyPDdQjlksfaXn02reI66ZVmn7C3Cy1WaaKNl8k8TMA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+</html>
